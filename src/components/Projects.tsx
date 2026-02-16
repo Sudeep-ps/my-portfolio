@@ -18,7 +18,7 @@ const projects = [
         description:
             "A personal finance app to track income and expenses with custom transaction categories. Displays real-time balance based on recorded transactions. Deployed as a web app via GitHub Pages.",
         tech: ["Flutter", "Dart", "Firebase", "GitHub Pages"],
-        github: "https://github.com/Sudeep-ps/Sudeep-ps.github.io",
+        github: "https://github.com/Sudeep-ps/moneymanagement",
         live: "https://sudeep-ps.github.io/",
         tag: "Flutter",
     },

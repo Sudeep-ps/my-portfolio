@@ -110,9 +110,9 @@ export default function Hero() {
                             className="flex gap-5 mt-10"
                         >
                             {[
-                                { label: "GitHub", href: "https://github.com/yourusername" },
-                                { label: "LinkedIn", href: "https://linkedin.com/in/yourusername" },
-                                { label: "Twitter", href: "https://twitter.com/yourusername" },
+                                { label: "GitHub", href: "https://github.com/Sudeep-ps" },
+                                { label: "LinkedIn", href: "https://www.linkedin.com/in/sudeep-p-s-654859271?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bsp219eRoSK6J6FNGNcEgNw%3D%3D" },
+
                             ].map((s) => (
                                 <a
                                     key={s.label}

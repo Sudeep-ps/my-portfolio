@@ -5,10 +5,10 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-    { value: "2+", label: "Years Experience" },
-    { value: "15+", label: "Projects Completed" },
-    { value: "10+", label: "Happy Clients" },
-    { value: "5+", label: "Technologies" },
+    { value: "1+", label: "Years Experience" },
+    { value: "5+", label: "Projects Completed" },
+    { value: "3x", label: "Retention Growth" },
+    { value: "5.0+", label: "ROAS Achieved" },
 ];
 
 export default function About() {
@@ -38,21 +38,23 @@ export default function About() {
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
                         <p className="text-[#94A3B8] text-lg leading-relaxed mb-6">
-                            Hello! I'm <span className="text-white font-semibold">Your Name</span>, a passionate
-                            Mobile & Full Stack Developer based in <span className="text-[#3B82F6]">Your City, India</span>.
+                            Hello! I'm <span className="text-white font-semibold">Sudeep P S</span>, a
+                            Full Stack Developer based in <span className="text-[#3B82F6]">Palakkad, Kerala</span>.
                         </p>
                         <p className="text-[#64748B] leading-relaxed mb-6">
-                            I specialize in building cross-platform mobile applications with <span className="text-[#94A3B8]">React Native</span> and
-                            scalable web applications using <span className="text-[#94A3B8]">Next.js</span> and <span className="text-[#94A3B8]">Node.js</span>.
-                            I love working across the full stack — from crafting beautiful UI to designing robust backend architectures.
+                            I specialize in building cross-platform mobile applications with <span className="text-[#94A3B8]">Flutter</span> and
+                            scalable web applications using <span className="text-[#94A3B8]">React.js</span> and <span className="text-[#94A3B8]">NestJS</span>.
+                            At Datcarts, I've shipped features like intelligent barcode scanning, a gamified rewards system,
+                            and a real-time monitoring dashboard for distributed retail operations.
                         </p>
                         <p className="text-[#64748B] leading-relaxed mb-8">
-                            When I'm not coding, I'm exploring new tech, contributing to open source, or
-                            brewing the perfect cup of coffee ☕
+                            I also have hands-on experience in AI/ML from my internship at <span className="text-[#94A3B8]">IBM WatsonX</span>, where
+                            I built and deployed machine learning models on IBM Cloud. Currently pursuing my{" "}
+                            <span className="text-[#94A3B8]">MSc in Computer Science with Data Science</span> at CUSAT (8.86 CGPA).
                         </p>
 
                         <div className="flex flex-wrap gap-3">
-                            {["React Native", "Next.js", "TypeScript", "Node.js", "Expo", "PostgreSQL"].map((tech) => (
+                            {["Flutter", "React.js", "TypeScript", "NestJS", "Node.js", "MongoDB", "Python", "Google ML Kit"].map((tech) => (
                                 <span
                                     key={tech}
                                     className="px-3 py-1 bg-[#0D1526] border border-[#1E2D45] text-[#3B82F6] font-mono text-xs rounded"
