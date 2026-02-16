@@ -15,9 +15,13 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Mobile & Full Stack Developer",
+  title: "Sudeep P S | Mobile & Full Stack Developer",
   description:
-    "Portfolio of a Mobile & Full Stack Developer specializing in React Native, Next.js, and modern web technologies.",
+    "Portfolio of Sudeep P S — Mobile & Full Stack Developer specializing in Flutter, React.js, Next.js, and NestJS.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
