@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
 
-## Getting Started
+A modern, dark-themed developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-First, run the development server:
+## 🚀 Setup Instructions
 
+### 1. Install Framer Motion
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install framer-motion
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Copy the files into your project
+Replace/create these files in your `my-portfolio` project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── page.tsx          ← Replace
+│   ├── layout.tsx        ← Replace
+│   └── globals.css       ← Replace
+├── components/           ← Create this folder
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   └── Contact.tsx
+tailwind.config.ts        ← Replace
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Run the dev server
+```bash
+npm run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✏️ Customize with Your Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Search for `Your Name` and replace with your actual name in:
+- `src/app/layout.tsx` — page title & description
+- `src/components/Hero.tsx` — name display & code card
+- `src/components/About.tsx` — bio text, city, stats
+- `src/components/Contact.tsx` — email & social links footer
 
-## Deploy on Vercel
+Search for `yourusername` and replace with your GitHub/LinkedIn/Twitter usernames in:
+- `src/components/Navbar.tsx` — resume link
+- `src/components/Hero.tsx` — social links
+- `src/components/Projects.tsx` — project GitHub links
+- `src/components/Contact.tsx` — social links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Update your actual data in:
+- `src/components/Skills.tsx` — your real skill levels
+- `src/components/Experience.tsx` — your work history
+- `src/components/Projects.tsx` — your real projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌐 Deploy to Vercel
+
+1. Push to GitHub
+2. Go to [vercel.com](https://vercel.com) and import your repo
+3. Done! Your site is live at `yourname.vercel.app`
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Fonts**: Syne + Space Mono (Google Fonts)
+- **Deployment**: Vercel
